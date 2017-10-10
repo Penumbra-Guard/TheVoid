@@ -1,0 +1,28 @@
+Part One is to:
+
+    Implement a Product Class
+    Create an array of Product
+    Display the Product array on the console
+
+Implement a Product class with a constructor and three properties.
+
+public class Product {  
+  // Product constructor with three parameters (SKU, description, price)
+  // SKU() method to return the SKU for the product
+  // description() method to return the description for the product
+  // price() method to return the price (in dollars) for the product - use a float data type
+}
+
+Implement a StoreUserInterface class that will create an array of Products and display a formatted list of the products in the array. 
+
+public class StoreUserInterface {
+  public static void main(String args[]) {
+    // declare a variable as an array of Product
+    // create at least three instances of Product and add them to your array
+         // myProducts[0] = new Product(101, "Crest Toothpaste", 2.49);
+    // use a for loop to iterate over the array and print out each product
+    // Sample output may be - Product: <sku> Description: <description> Price: <price>
+        // Product: 101, Description: Crest Toothpaste, Price: $2.49
+}
+
+Be creative, this is your Store.  As long as you complete the man elements, feel free to embellish your project as you like.

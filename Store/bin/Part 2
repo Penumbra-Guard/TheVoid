@@ -1,0 +1,36 @@
+Implement a Store class with a constructor and two properties.
+
+public class Store {  
+  // Product constructor with three parameters (storeName, aisles)
+  // storeName() method to return the name of the store
+  // Aisles - An array of Aisle
+}
+
+Implement an Aisle class with a constructor and three properties.
+
+public class Aisle {  
+  // Product constructor with three parameters (aisleNumber, aisleDescription, products)
+  // aisleNumber() method to return the number of the aisle
+  // aisleDescription() method to return the name or description of the aisle
+  // Products - An array of Product
+}
+
+Implement a Repository class to create the Store, Aisle, and Product objects
+
+public class Repository {  
+  // No constructor - all methds will be static.
+  // getStore() method to create and return the complete Store object
+  // getAisle(aisleNumber) method to create and return the desired aisle
+  // getProductsForAisle(aisleNumber) method to return all the products in an aisle.
+}
+
+Update the StoreUserInterface class to get the Store Object from the Repository class, display the list of aisles, and display the products in an aisle.
+
+public class StoreUserInterface {
+  public static void main(String args[]) {
+    // Declare the Store and retrieve it from the Repository
+    // Use a for loop to control the user interaction
+       // Display a list of aisles and ask the user which they want to browse or if they want to leave
+       // If the user picks an aisle, display a list of products contained in that aisle
+       // If the user asks to leave, say goodbye and terminate the application.
+}
